@@ -1,0 +1,32 @@
+{
+  "name": "measurement-converter",
+  "version": "0.1.0",
+  "description": "Functions to convert kg to li and li to kg.",
+  "main": "dist/lib/measurement-converter.js",
+  "scripts": {
+    "build": "babel lib/measurement-converter.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armando1339/measurement-converter.git"
+  },
+  "keywords": [
+    "kg",
+    "li",
+    "converter",
+    "convert"
+  ],
+  "author": "Armando Alejandre <armando1339@gmail.com> (https://github.com/armando1339/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/armando1339/measurement-converter/issues"
+  },
+  "homepage": "https://github.com/armando1339/measurement-converter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
